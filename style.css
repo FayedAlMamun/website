@@ -1,0 +1,186 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+    margin-bottom: 35px;
+    
+}
+.name-highlight{
+    color: hotpink;
+   
+}.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    height: 100%;
+   
+}
+.top{
+    background-image: url(image/header-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+}
+section{
+    height: 750px;
+    padding-bottom: 100px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(231, 165, 111),tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+.Biography-part{
+    background-image: url(image/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.text-alignment{
+    text-align: center;
+}
+.one-third-width{
+    width: 25%;
+    float: left;
+    margin-left:5%;
+}
+.one-third-width img{
+    width: 100%;
+    height: 100%;
+}
+.latest-work{
+    background-image: url(image/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.footer{
+    background-image: url(image/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.footer-l{
+    background-image: linear-gradient(45deg,rgb(214, 122, 168),hotpink);
+    background-position: center;
+    margin-left: 30%;
+    width: 40%;
+    height: 18%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+.contract{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 150px;
+    font-size: 20px;
+}
+#alignment-and-color{
+    text-align: center;
+    color: dimgray;
+}
+#footer{
+    text-align: center;
+    color: dimgray;
+    margin-top: 150px;
+}
+.skill{
+    background:linear-gradient(rgba(84, 124, 161, 0.9),rgba(4, 238, 195, 0.9)), url(image/skill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1%;
+    padding-left:1% ;
+}
+.skill-upper-div{
+    background-color: white;
+    width:50%;
+    border-radius:50px;}
+.skill-lower-div{
+    background-image:linear-gradient(45deg,rgb(118, 7, 245),rgb(103, 14, 145));
+    text-align:center;
+    border-radius:50px;
+    color:white;
+}
+
+.py-skill{
+    width: 0%;
+    transition:width 2s ease-in-out;
+    
+}
+section:hover.skill div.py-skill {
+width: 80%;
+}
+.c-skill{
+    width: 0%;
+    transition:width 2s ease-in-out;
+}
+section:hover.skill div.py-skill {
+    width: 80%;
+    }
+.html-skill{
+    width: 0%;
+    transition:width 2s ease-in-out;
+}
+section:hover.skill div.html-skill {
+    width: 90%;
+    }
+.css-skill{
+    width: 0%;
+    transition:width 2s ease-in-out;}
+    section:hover.skill div.css-skill {
+        width: 75%;
+        }
+.js-skill{
+    width: 0%;
+    transition:width 2s ease-in-out;
+}
+section:hover.skill div.js-skill {
+    width: 35%;
+    }
+.photoshop-skill{
+    width: 0%;
+    transition:width 2s ease-in-out;
+}
+section:hover.skill div.photoshop-skill {
+    width: 50%;
+    }
+.pygame-skill{
+    width: 0%;
+    transition:width 2s ease-in-out;
+}
+section:hover.skill div.pygame-skill {
+    width: 30%;
+    }
+.find-me{
+    margin-top: 1%;
+    padding-top: 1%;
+    width: 45%;
+    float: left;
+}
+.find-me p{
+    text-align: right;
+    color:black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.find-me img{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 0px;
+    
+    
+}
